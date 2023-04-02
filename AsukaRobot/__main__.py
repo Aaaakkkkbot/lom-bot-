@@ -847,12 +847,12 @@ def main():
 
         if CERT_PATH:
             updater.bot.set_webhook(
-                url=URL + TOKEN, certificate=open(CERT_PATH, 'rb'))
+                url=URL + TOKEN,test bababot  certificate=open(CERT_PATH, 'rb'))
         else:
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Finally Asuka Is Online")
+        LOGGER.info("Finally  Is Online")
         allowed_updates = ['message', 'edited_message', 'callback_query', 'callback_query', 'my_chat_member',
                            'chat_member', 'chat_join_request', 'channel_post', 'edited_channel_post', 'inline_query']
         updater.start_polling(
